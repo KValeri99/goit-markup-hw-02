@@ -137,31 +137,30 @@ img {
     padding: 120px 0;
 }
 
+.features-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: none;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
 .features-list {
     display: flex;
     gap: 24px;
 }
 
 .features-item {
-    width: 264px;
+    flex-basis: calc((100% - 48px) / 3);
 }
 
-.features-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
+.features-item img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
-
-.features-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
 /* Team Section */
 .team {
     background-color: #f4f4fd;
