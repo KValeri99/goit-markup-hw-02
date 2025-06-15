@@ -34,6 +34,7 @@ img {
 /* Header */
 .header {
     background-color: #ffffff;
+    padding: 24px 0;
 }
 
 .logo {
@@ -89,7 +90,7 @@ img {
     color: #404bbf;
 }
 
-/* Hero */
+/* Hero Section */
 .hero {
     background-color: #2e2f42;
     padding: 188px 0;
@@ -99,6 +100,7 @@ img {
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 48px;
@@ -123,7 +125,7 @@ img {
     background-color: #404bbf;
 }
 
-/* Features */
+/* Features Section */
 .features {
     padding: 120px 0;
 }
@@ -153,7 +155,7 @@ img {
     color: #434455;
 }
 
-/* Team */
+/* Team Section */
 .team {
     background-color: #f4f4fd;
     padding: 120px 0;
@@ -199,7 +201,7 @@ img {
     color: #434455;
 }
 
-/* Portfolio */
+/* Portfolio Section */
 .portfolio {
     padding: 120px 0;
 }
