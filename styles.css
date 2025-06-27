@@ -61,11 +61,13 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:focus,
-.nav-link.current {
+.nav-link:focus {
     color: #404bbf;
-        
-        pointer-events: none;
+}
+
+.nav-link.current {
+    color: #2e2f42;
+    pointer-events: none;
 }
 
 /* Контакти */
