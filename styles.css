@@ -265,13 +265,7 @@ body {
             padding: 100px 0;
         }
     
-        .footer-container {
-            max-width: 1158px;
-            margin: 0 auto;
-            padding-left: 15px;
-            padding-right: 15px;
-            display: flex;
-            flex-direction: column;   }
+        
 
 .footer-logo {
     display: inline-block;
