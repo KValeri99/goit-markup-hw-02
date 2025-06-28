@@ -171,13 +171,15 @@ body {
 }
 
 .section-title {
-    font-size: 36px;
+    font-size: 20px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .team-list {
