@@ -133,13 +133,15 @@ body {
 }
 
 .features-title {
+    font-weight: 500;
     font-size: 36px;
-    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: none;
     color: #2e2f42;
     margin-bottom: 72px;
+    font-size: 20px;
+        line-height: 1.2;
 }
 
 .features-list {
