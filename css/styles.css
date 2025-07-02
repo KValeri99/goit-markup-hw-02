@@ -40,8 +40,7 @@ body {
 .nav-list {
     list-style: none;
     /* ✅ прибирає точки */
-    display: flex;
-    gap: 40px;
+    
     margin: 0;
     padding: 0; }
 
@@ -70,8 +69,7 @@ body {
 }
 
 .address-list {
-    display: flex;
-    gap: 40px;
+   
 }
 
 .address-link {
@@ -139,8 +137,7 @@ body {
 }
 
 .features-list {
-    display: flex;
-    gap: 24px;
+    
 }
 
 .features-item {
@@ -187,8 +184,7 @@ body {
 }
 
 .team-list {
-    display: flex;
-    gap: 24px;
+    
 }
 
 .team-card {
@@ -222,10 +218,7 @@ body {
 }
 
 .portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    row-gap: 48px;
+   
 }
 .section-title-portfolio {
     font-size: 36px;
@@ -337,24 +330,21 @@ body {
 
 .address-list {
     list-style: none;
-    display: flex;
-    gap: 40px;
+    
     margin: 0;
     padding: 0;
 }
 
 .features-list {
     list-style: none;
-    display: flex;
-    gap: 24px;
+    
     margin: 0;
     padding: 0;
 }
 
 .team-list {
     list-style: none;
-    display: flex;
-    gap: 24px;
+   
     justify-content: center;
     margin: 0;
     padding: 0;
@@ -362,10 +352,7 @@ body {
 
 .portfolio-list {
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    row-gap: 48px;
+    
     justify-content: center;
     margin: 0;
     padding: 0;
