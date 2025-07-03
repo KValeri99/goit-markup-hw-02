@@ -12,11 +12,14 @@ body {
 
 
 
-.header {
-    background-color: #ffffff;
+/* Навігація */
+.main-nav {
+    
+    align-items: center;
+    
 }
 
-/* ЛОГОТИП */
+/* Логотип */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -25,6 +28,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-left: 156px;
     text-decoration: none;
 }
 
@@ -32,12 +36,13 @@ body {
     color: #2e2f42;
 }
 
-/* НАВІГАЦІЯ */
+/* Навігаційне меню */
 .nav-list {
     list-style: none;
+    /* ✅ прибирає точки */
+    
     margin: 0;
-    padding: 0;
-}
+     }
 
 .nav-link {
     font-weight: 500;
@@ -54,18 +59,17 @@ body {
 }
 
 .nav-link.current {
-    color: #2e2f42;
+    color: #404bbf;
     pointer-events: none;
 }
 
-/* КОНТАКТИ */
+/* Контакти */
 .header-contacts {
     font-style: normal;
 }
 
 .address-list {
-    list-style: none;
-    margin: 0;
+   
 }
 
 .address-link {
@@ -80,6 +84,39 @@ body {
 .address-link:focus {
     color: #404bbf; }
 
+/* Hero Section */
+.hero {
+    background-color: #2e2f42;
+   
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 48px;
+}
+
+.btn-order {
+    background-color: #4d5ae5;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    
+    
+    cursor: pointer;
+}
+
+.btn-order:hover,
+.btn-order:focus {
+    background-color: #404bbf;
+}
 
 /* Features Section */
 .features {
