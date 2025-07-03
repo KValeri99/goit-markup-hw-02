@@ -334,3 +334,9 @@ body {
 
         .nav-link.current:hover {
             color: #404bbf;     }
+
+
+                        .nav-list li:first-child .nav-link:hover,
+                        .nav-list li:first-child .nav-link:focus {
+                            color: #404bbf;
+                        }
