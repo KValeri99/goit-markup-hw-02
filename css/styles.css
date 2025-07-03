@@ -15,7 +15,7 @@ body {
 /* Навігація */
 .main-nav {
     
-    align-items: center;
+
     
 }
 
@@ -230,7 +230,7 @@ body {
 .portfolio-list {
     list-style: none;
     margin: 0;
-    padding: 0;
+    
 }
 
 .portfolio-card {
@@ -263,7 +263,7 @@ body {
        
 
 .footer-logo {
-    display: inline-block;
+
     margin-bottom: 16px;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -328,7 +328,7 @@ body {
     color: #2e2f42;
 }
 
-.nav-list li:first-child .nav-link:hover,
-.nav-list li:first-child .nav-link:focus {
-color: #404bbf;
+.first-link:hover,
+.first-link:focus {
+    color: #404bbf;
 }
