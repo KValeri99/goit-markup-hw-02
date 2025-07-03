@@ -328,15 +328,7 @@ body {
     color: #2e2f42;
 }
 
-.first-link:hover,
-.first-link:focus {
-    color: #404bbf; }
-
-        .nav-link.current:hover {
-            color: #404bbf;     }
-
-
-                        .nav-list li:first-child .nav-link:hover,
-                        .nav-list li:first-child .nav-link:focus {
-                            color: #404bbf;
-                        }
+.nav-list li:first-child .nav-link:hover,
+.nav-list li:first-child .nav-link:focus {
+color: #404bbf;
+}
