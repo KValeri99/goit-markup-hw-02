@@ -39,7 +39,7 @@ body {
 /* Навігаційне меню */
 .nav-list {
     list-style: none;
-    /* ✅ прибирає точки */
+    
     
     margin: 0;
      }
@@ -59,7 +59,7 @@ body {
 }
 
 .nav-link.current {
-    color: #404bbf;
+    color: #2e2f42;
     pointer-events: none;
 }
 
