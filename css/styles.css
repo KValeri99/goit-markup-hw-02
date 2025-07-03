@@ -224,6 +224,7 @@ body {
     text-align: center;
     color: #2e2f42;
     margin-bottom: 72px;
+    text-transform: capitalize;
 }
 
 .portfolio-list {
@@ -296,36 +297,37 @@ body {
 }
 .nav-list {
     list-style: none;
-    
     margin: 0;
     
 }
 
 .address-list {
     list-style: none;
-    
     margin: 0;
     
 }
 
 .features-list {
-    list-style: none;
-    
+    list-style: none; 
     margin: 0; 
 }
 
 .team-list {
-    list-style: none;
-   
-    
+    list-style: none;   
     margin: 0;
    
 }
 
 .portfolio-list {
     list-style: none;
-    
-    
     margin: 0;
    
 }
+
+.first-link {
+    color: #2e2f42;
+}
+
+.first-link:hover,
+.first-link:focus {
+    color: #404bbf; }
