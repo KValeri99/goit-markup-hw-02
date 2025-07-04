@@ -53,13 +53,10 @@ body {
     text-decoration: none;
 }
 
-
-.nav-link:focus {
+.nav-list li:first-child .nav-link:hover,
+.nav-list li:first-child .nav-link:focus {
     color: #404bbf;
 }
-
-.nav-link:hover {
-    color: #404bbf; }
 
 /* Контакти */
 .header-contacts {
