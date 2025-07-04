@@ -53,7 +53,7 @@ body {
     text-decoration: none;
 }
 
-.nav-link:hover,
+
 .nav-link:focus {
     color: #404bbf;
 }
@@ -317,13 +317,4 @@ body {
     list-style: none;
     margin: 0;
    
-}
-
-.first-link {
-    color: #2e2f42;
-}
-
-.first-link:hover,
-.first-link:focus {
-    color: #404bbf;
 }
