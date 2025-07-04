@@ -58,11 +58,6 @@ body {
     color: #404bbf;
 }
 
-.nav-link.current {
-    color: #2e2f42;
-    pointer-events: none;
-}
-
 /* Контакти */
 .header-contacts {
     font-style: normal;
