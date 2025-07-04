@@ -58,6 +58,9 @@ body {
     color: #404bbf;
 }
 
+.nav-link:hover {
+    color: #404bbf; }
+
 /* Контакти */
 .header-contacts {
     font-style: normal;
